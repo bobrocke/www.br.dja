@@ -1,0 +1,14 @@
+use venv to manage python virtual environments
+
+Ror' s MCV = Django's MVT
+
+1) Activate my virtual environment
+    source myenv/bin/activate
+
+2) cd br_project
+
+3) Start a development server
+    python manage.py runserver
+
+4) Deactivate my virtual environment
+    deactivate
