@@ -1,6 +1,6 @@
 use venv to manage python virtual environments
 
-Ror' s MCV = Django's MVT
+RoR's MCV = Django's MVT
 
 1) Activate my virtual environment
     source myenv/bin/activate
@@ -12,3 +12,11 @@ Ror' s MCV = Django's MVT
 
 4) Deactivate my virtual environment
     deactivate
+
+
+Making Model Changes:
+    Change your models (in models.py).
+
+    Run python manage.py makemigrations to create migrations for those changes
+
+    Run python manage.py migrate to apply those changes to the database.
