@@ -1,16 +1,5 @@
 {
   "clips" : [
-    {
-      "content" : "source myenv\/bin\/activate",
-      "name" : "Activate Virtual Environment"
-    },
-    {
-      "content" : "python manage.py runserver",
-      "name" : "Start a Server"
-    },
-    {
-      "content" : "deactivate",
-      "name" : "Deactivate Virtual Environment"
-    }
+
   ]
 }
